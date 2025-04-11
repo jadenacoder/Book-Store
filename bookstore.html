@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store Webpage</title>
+    <style>
+        body{
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUQKM3xmg0oWkUsNSzP4dGmudL1h9v0ue-2Q&s");
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        h1{
+            background-color: black;
+            color: white;
+            padding: 10px;
+        }
+        .tablebox{
+            background-image: radial-gradient(violet, white, violet);
+            width: 90%;
+            margin: auto;
+            border-radius: 5%;
+        }
+        table{
+            width: 90%;
+            border: 2px solid white;
+            margin: auto;
+        }
+        th{
+            border: 2px solid white;
+            background-color: white;
+        }
+        td{
+            border: 2px solid white;
+        }
+        .genrebox{
+            text-align: left;
+            background-image: radial-gradient(violet, white, violet);
+            width: 90%;
+            margin: auto;
+            border-radius: 5%;
+        }
+        .text{
+            margin: 35px;
+        }
+        .signupbox{
+            text-align: left;
+            background-image: radial-gradient(violet, white, violet);
+            width: 90%;
+            margin: auto;
+            border-radius: 5%;
+        }
+        label{
+            margin: 35px;
+        }
+        .marg{
+            margin: 35px;
+        }
+        input{
+            margin: 35px;
+            width: 90%;
+            border-radius: 5%;
+        }
+        button{
+            margin: 35px;
+            width: 90%;
+            background-color: darkslategray;
+            color: white;
+            border-radius: 5%;
+            cursor: pointer;
+        }
+        button:hover{
+            background-color: dimgray;
+        }
+        .para{
+            background-color: white;
+        }
+        .column{
+            height: 400px;
+            width: 30%;
+            float: left;
+            padding: 10px;
+        }
+        img{
+            height: 300px;
+            width: 85%;
+        }
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to our Book Store</h1>
+
+    <h3>Discover a world of stories waiting to be explored</h3>
+
+    <div class="tablebox">
+        <h4><b>Featured Books</b></h4>
+        <table>
+            <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Genre</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>The Great Gatsby</td>
+                <td>F. Scott Fitzgerald</td>
+                <td>Classic</td>
+                <td>$12.99</td>
+            </tr>
+            <tr>
+                <td>To Kill a Mockingbird</td>
+                <td>C.S. Lewis, Pauline Baynes</td>
+                <td>Fantasy</td>
+                <td>$13.99</td>
+            </tr>
+            <tr>
+                <td>The Chronicles of Narnia</td>
+                <td>Harper Lee</td>
+                <td>Fiction</td>
+                <td>$10.99</td>
+            </tr>
+        </table>
+    </div>
+
+
+    <div class="genrebox">
+        <div class="text">
+            <h4>Popular Genres</h4>
+            <p>Mystery</p>
+            <p>Science Fiction</p>
+            <p>Romance</p>
+            <p>Fantasy</p>
+        </div>
+    </div>
+
+
+    <div class="signupbox">
+        <h4 class="marg"><b>Newsletter Signup</b></h4>
+
+        <form>
+            <label><b>Login</b></label>
+            <input type="email" placeholder="Enter your email">
+
+            <label><b>Password</b></label>
+            <input type="password" placeholder="Enter password">
+
+            <button><b>Login</b></button>
+            <button><b>Reset</b></button>
+        </form>
+    </div>
+
+    <div class="para">
+        <h2>"A room without books is like a body without a soul" - Marcus Tulius Ciero</h2>
+    </div>
+
+    <div class="collectionbox">
+        <h3>Explore our Collection</h3>
+        <div class="row">
+            <div class="column">
+                <img class="tgg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfHAGA7vPtmnoi-2VTI4tNI_E0nniPFfnJLg&s" alt="demo">
+            </div>
+            <div class="column">
+                <img class="tkam" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/To_Kill_a_Mockingbird_%28first_edition_cover%29.jpg/1200px-To_Kill_a_Mockingbird_%28first_edition_cover%29.jpg" alt="demo">
+            </div>
+            <div class="column">
+                <img class="tcon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUfmCNd7-P0tU1YOdnImoB5ZaeeAmIzBaGKQ&s" alt="demo">
+            </div>
+        </div>
+        <h2>Explore our collection and get lost in the world of literature.</h2>
+        <a href="https://books.google.com/">Browse Featured Books</a>
+    </div>
+</body>
+</html>
